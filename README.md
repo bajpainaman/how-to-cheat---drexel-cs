@@ -1,4 +1,4 @@
-# How to cheat in computer science 101
+# How to cheat in Drexel CS 101
 
 Recently I cheated in one of my core classes. 
 Unfortunately I was caught, but thanks to my professor(CS260), I learned how the system detects cheaters. 
