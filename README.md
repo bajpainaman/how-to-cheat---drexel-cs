@@ -1,7 +1,18 @@
 # How to cheat in Drexel CS 101
 
+
+## **Disclaimer**  
+
+### This repository, its author, and any associated materials do not condone or promote cheating in any form. The information provided here is intended solely for educational and reflective purposes, particularly to examine the effectiveness and limitations of Drexel University's academic integrity policies and software-based plagiarism detection tools.  
+
+### Cheating is unethical and compromises the learning process, as well as the integrity of academic achievements. By understanding how such systems work, students can appreciate the importance of producing original work and adhering to academic standards.  
+
+### While this document includes a detailed discussion of MOSS (Measure of Software Similarity) and how it detects code similarity, its purpose is to highlight the efforts taken by institutions to ensure fairness and honesty in academic work. If you're struggling with an assignment, it is highly encouraged to seek assistance from peers, tutors, or professors, rather than resorting to unethical practices.  
+
+### By reading further, you acknowledge your responsibility to use this information ethically and in accordance with your institution’s academic policies.
+
 Recently I cheated in one of my core classes. 
-Unfortunately I was caught, but thanks to my professor(CS260), I learned how the system detects cheaters. 
+Unfortunately I was caught, but thanks to my professor, I learned how the system detects cheaters. 
 With this newly found information, I am now able to teach **YOU** how to cheat **WITHOUT** getting caught. 
 
 
