@@ -20,7 +20,7 @@ First, we need to learn exactly **HOW** the system catches us.
 The system used by most universities is called the ”Measure Of Software Similarity” or [MOSS](https://github.com/mikeizbicki/gitlearn/blob/master/scripts/moss/moss.txt) for short and was developed by Stanford. So yeah, it's pretty legit. 
 MOSS is a plagiarism detection algorithm that is exceptionally complex. In its raw form, it is an [AI](https://en.wikipedia.org/wiki/Artificial_intelligence) that analyzes code line by line and compares it to other's work. Tricking it will be **VERY** hard. So, let's get started!
 
-####Overview
+#### Overview
 In order for you to successfully cheat the system, you will need to be **dedicated** and **perseverant**. 
 **You might as well just turn in the same file you got from your friend/online if you don't follow these steps**. 
 Don't worry though, we will take these steps together and once you finish you will be right on your path to becoming a master cheater.
@@ -32,7 +32,7 @@ Don't worry though, we will take these steps together and once you finish you wi
 4. Submit, relax and party it up
 
 
-##Lesson 0: Basics
+## Lesson 0: Basics
 
 Before starting, you will need to know a little bit of background about MOSS
 
@@ -52,12 +52,12 @@ Before starting, you will need to know a little bit of background about MOSS
 	*[Here](http://theory.stanford.edu/~aiken/publications/papers/sigmod03.pdf) is the documentation- directly from Stanford.*
 	
 
-##Lesson 1: Changing Variable names does NOT work
+## Lesson 1: Changing Variable names does NOT work
 
 The first thing most students think of when trying to avoid getting caught is changing every instance of a variable name. In this lesson I will demonstrate why this does not work.
 Changing ```int foo = 1``` to ``` int bar = 1``` isn't going to work as MOSS analyzes code by structure. 
 
-###For Example:
+### For Example:
 ```
 #include <iostream>							|#include <iostream>
 using namespace std;						|using namespace std;
@@ -103,9 +103,9 @@ This time, we will change:
 
 Let's see how results fare this time around.
 
-######Both programs perform the same task, but with different implementation and structure######
+###### Both programs perform the same task, but with different implementation and structure######
 
-###For Example
+### For Example
 
 ```
 #include <iostream>						              |#include <iostream>
@@ -155,7 +155,7 @@ It only matched the [code](https://raw.githubusercontent.com/hkwan003/Moss_Docum
 This won't be enough to throw off the system. 
 A bit more work will be necessary in order to get away.
 
-##Lesson 3: Copying and rewriting a function
+## Lesson 3: Copying and rewriting a function
 
 When you get stuck and decide to take someone else's function, MOSS has no problem detecting and flagging it for plagarism. 
 I will teach you a new way of getting around this by modifying your own function.
@@ -172,7 +172,7 @@ Click here to view source code [Example 3A](https://raw.githubusercontent.com/hk
 
 ![random code, one function, results] (https://raw.githubusercontent.com/hkwan003/Moss_Documentation/phone/images/Example%205%20Results.png?token=AGDMXs76Bj2Qy1YJZrNQ_ov7bKVNGL4jks5WBhk5wA%3D%3D)
 
-####Rewriting a function
+#### Rewriting a function
 
 Steps to rewriting a function
 
@@ -195,7 +195,7 @@ void swap_string_with_user_input(string& data)       |void swap_with_user_input(
 ```
 
 
-##Lesson 4: If-else statements to switch statements
+## Lesson 4: If-else statements to switch statements
 
 One fundamental part of programming is the ability to perform loops and conditional statements. 
 If and else statements are something programmers are most familar with. 
@@ -246,44 +246,19 @@ Click here to view source code [Example 4A](https://raw.githubusercontent.com/hk
 ![guessing game results](https://raw.githubusercontent.com/hkwan003/Moss_Documentation/phone/images/Example%203%20Overview.png?token=AGDMXnaVbgXWyTKEye0TPFvDyLxFp6lyks5WBhm3wA%3D%3D)
 
 
-##Conclusion
+## Conclusion
 
 So if you are able to change all the variable names, the structure of the code, modify functions, change if statements to switch statements, and completely change your coding style, you will get away with cheating the Moss detection system( every time). 
 
 However if you go through all this effort to cheat:
-#####1. You won't learn anything 
+##### 1. You won't learn anything 
 Going through great lengths of modifying code, you might as well do the assignment and learn the material.
-#####2. There's still a possibility of getting caught 
+##### 2. There's still a possibility of getting caught 
 My method of beating MOSS isn't perfect.
 If you follow my instructions, there is still a chance of you getting caught.
 There is no fool proof way to protect cheaters.
 
-#####3. Cheating requires just as much effort as genuinely doing the work
+##### 3. Cheating requires just as much effort as genuinely doing the work
 Modifying a homework assignment to make your own is just as much hard work as doing it yourself. Except when you do it yourself **you actually learn**.
 
 
-##Background 
-
-
-I am one of the students who did not follow the precautions of plagiarism. 
-I took the risk and got caught. Writing this document was my punishment.
-
-I got a low grade on an assignment, I was too preoccupied to complete the regrade at the end of the quarter so I cheated.
-
-I took a previous cs100 student's working code.
-I modified it, changed the code around and submitted it. 
-My code was flagged by Moss and I did not want to risk expulsion so I admitted to everything.
-
-
-
-
-
-
-
-
-
-
-
-
-
-# how-to-cheat---drexel-cs
